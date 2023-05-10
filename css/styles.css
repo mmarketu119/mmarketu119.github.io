@@ -24,6 +24,18 @@ h1{
     text-align: center;
 }
 
+.card_img{
+   width: 100%;
+   height: 100%;
+   object-fit:inherit;
+}
+
+.footer_design{
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    colortext
+}
 
 @media screen and (max-width: 500px){
     h1 {
