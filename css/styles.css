@@ -30,11 +30,45 @@ h1{
    object-fit:inherit;
 }
 
-.footer_design{
-    height: 30px;
+footer{
+    height: 100%;
     background-color: black;
     text-align: center;
-    colortext
+    
+}
+
+.fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 3px;
+    border-radius: 80%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+.form_container_design{
+    background-color: lightgray;
+    border-color: darkblue;
+    border-style: solid;
+}
+
+.font_family{
+    font-family: 'Bungee Spice', cursive;
 }
 
 @media screen and (max-width: 500px){
