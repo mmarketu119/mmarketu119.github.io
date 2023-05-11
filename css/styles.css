@@ -1,40 +1,31 @@
-body{
-    background-color: lightblue;
+body {
+    background-color: lavender
 }
 
-/* H1 & H2 titles have this text format - Not Working RN */
-.btxt{
-    text-shadow: 1cap;
-    text-decoration-style: solid;
-    justify-content: center;
-    align-content: center;
-    text-decoration-color: blue;
-}
 
-h1{
+h1 {
     font-style: italic;
-    text-align:center;
-    text-shadow: black;
+    text-align: center;
+    /*text-shadow: black;*/
 }
 
-.sm_title{
+.sm_title {
     margin-top: 5;
     margin-bottom: 4;
     text-shadow: lightslategrey;
     text-align: center;
 }
 
-.card_img{
-   width: 100%;
-   height: 100%;
-   object-fit:inherit;
+.card_img {
+    width: 100%;
+    height: 100%;
+    object-fit: inherit;
 }
 
-footer{
-    height: 100%;
-    background-color: black;
-    text-align: center;
-    
+
+h1,h2,h4 {
+    font-family: 'Press Start 2P', cursive;
+
 }
 
 .fa {
@@ -44,35 +35,63 @@ footer{
     text-align: center;
     text-decoration: none;
     margin: 5px 3px;
-    border-radius: 80%;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
+    /*border-radius: 80%;*/
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
     background: #3B5998;
     color: white;
-  }
+}
 
-  .fa-linkedin {
+.fa-linkedin {
     background: #007bb5;
     color: white;
-  }
+}
 
-.form_container_design{
+.form_container_design {
     background-color: lightgray;
     border-color: darkblue;
     border-style: solid;
 }
 
-.font_family{
+/* footer styling code*/
+footer {
+    height: 100%;
+    background-color: black;
+    text-align: center;
+
+}
+
+.font_family {
     font-family: 'Bungee Spice', cursive;
 }
 
-@media screen and (max-width: 500px){
+.contact-area {
+    height: 75vh;
+}
+.cut{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+margin-bottom: 20px;}
+
+
+
+/*.giffy{
+    display: inline-flexbox;
+}*/
+
+/* footer styling code*/
+@media screen and (max-width: 500px) {
     h1 {
-font-size: 14px;
+        font-size: 14px;
     }
-} 
+
+    h2 {
+        font-size: 12px;
+    }
+}

@@ -17,6 +17,12 @@
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- Google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Sansita+Swashed&display=swap"
+        rel="stylesheet">
+
     <!-- Google Icon Link-->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -63,13 +69,24 @@
         <!-- Jumbotron starts here-->
 
         <div class="flex-container">
-            <div>
-                <container>
-                    <h2> Hello</h2>
-                    
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe esse eos autem incidunt itaque, eligendi veritatis eaque ad provident? Culpa doloribus nulla delectus id eaque explicabo, quia in ipsam dicta.</p>
-                </container>
+            <div class="p-5 mb-4 bg-light border rounded-3">
+                <h1>Submit A Contact Form</h1>
+                <p class="lead mt-5"> A great example of my coding improvement - is this very contact form. If you view
+                    my Websites 4 Beginners Final Project's Submisson form, you'll see I have made progress on how my
+                    forms are structured and styled. This forms contains features my previous form did not have like the
+                    placeholder text, file attachment option, and agreement confirmation button. Additionally, I learned
+                    how to make jumbotrons, insert images, insert maps, Google fonts, and etc. I look forward to
+                    learning more about JavaScript next course, so I can make more interactive and stylish web pages.
+                    Thank you for viewing my website!</p>
 
+                <a class="navbar-brand" href="#">
+                    <img src="https://cdn.pixabay.com/animation/2023/04/14/09/45/09-45-44-954_512.gif"
+                        alt="telephone ringing gif" width="30" height="24" class="d-inline-block align-text-top">
+                    <span>
+                        <a href="https://mmarketu119.github.io/final_project/index.html" target="_blank"
+                            class="btn btn-outline-success btn-lg">View My Final Poject</a>
+                    </span>
+                </a>
             </div>
         </div>
 
@@ -78,23 +95,96 @@
     </header>
 
 
-
     <!-- Contact Form Starts Here-->
-    <main>
-        <div class="flex-container m-5 p-5 form_container_design">
-            <div>
-                <h2 style="text-align: center;">Contact Me</h2>
 
-                <form action="/action_page.php">
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" value="John"><br><br>
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
+    <main class="contact-area ">
+
+        <div class="flex-container m-5 p-5"
+            style="border: dotted; border-color: blue; background-image: url(https://cdn.pixabay.com/photo/2016/06/20/13/44/paper-1468883_1280.jpg);">
+            <form>
+                <div class="row g-3 m-4 p-4">
+                    <div class="col-md-6">
+
+                        <label class="form-label">First Name</label>
+
+                        <input type="text" class="form-control" placeholder="(EX: Maya)" aria-label="First name">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Last Name</label>
+
+                        <input type="text" class="form-control" placeholder="(EX: Williams)" aria-label="Last name">
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+
+                        <input type="email" class="form-control" placeholder="(EX:name123@email.com)" id="inputEmail4">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Reason 4 Contact</label>
+
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select Option</option>
+                            <option value="1">Informational Interview</option>
+                            <option value="2">Public Speaking Event</option>
+                            <option value="3"> Book A Consultation</option>
+                            <option value="4">Project Request</option>
+                            <option value="5">Enroll In Web Development Course</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Message</label>
+
+                        <input class="form-control" placeholder="Leave a comment here"></textarea> </textarea>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Attach a Document</label>
+
+                        <input<div class="input-group">
+                            <input type="file" class="form-control" id="inputGroupFile04"
+                                aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                            <button class="btn btn-outline-success" type="button"
+                                id="inputGroupFileAddon04">Button</button>
+                    </div>
+
+                    <!--submit button formating-->
+
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                Agree to terms and conditions
+                            </label>
+                            <div class="invalid-feedback">
+                                You must agree before submitting.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-outline-success" type="submit">Submit form</button>
+                    </div>
+                </div>
+            </form>
         </div>
     </main>
-
     <!-- Contact Form Starts Here-->
+
+    <!-- Google Maps-->
+
+    <div>
+<h4 style="text-align: center;" class="mb-3"> <em>My City: Chicago</em></h4>
+        
+        <iframe class="cut"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190255.8460334488!2d-87.73196395!3d41.83373295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL!5e0!3m2!1sen!2sus!4v1683780798727!5m2!1sen!2sus"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
 
 
 
